@@ -10,4 +10,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
+    public class Auto{
+        public int motor;
+        public int frenos;
+        public int placas;
+    }
 }
